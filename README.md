@@ -2,26 +2,14 @@
 ## Due 9-26-2016
 
 ## Author
+Josh Weigel
 
 ## Description
-
-Create a person counter. The UI should have a + button, and a - button as well as a textview to store the value of the current number.
-When the app launches, the counter will be at zero. When the + button is pressed, it will increase the counter. When the - button is pressed, it will decrease the number.
-
-If the counter goes above 20, the app will toast a message that it is over 20. This message will only appear when the counter goes over 20. It should not appear for every number over 20, and it should not appear when decrementing regardless of the current number.
-
-Solution Requirements:
-
-* A plus button
-* A minus button
-* A textview to show the counter
-* A toast message when the counter goes above 20.
-
-![alt text](http://barnesbrothers.homeserver.com/cis298/assignmentImages/assignment1.jpg "Application Layout")
+A counter app with a textview displaying the current count and buttons for incrementing and decrementing it.
+When incrementing past 20 for the first time a toast is displayed.
 
 ### Notes
-
-This application should be very similar to the first application in the book.
+The counter will not go negative.
 
 ## Grading
 | Feature          | Points |
@@ -37,5 +25,7 @@ This application should be very similar to the first application in the book.
 | Total            | 100    |
 
 ## Outside Resources Used
+none
 
 ## Known Problems, Issues, And/Or Errors in the Program
+none
