@@ -15,7 +15,6 @@ public class CounterActivity
 
 	private Button mPlusButton, mMinusButton;
 	private TextView mCounterTextView;
-	private boolean mExceededTwenty = false;
 	private int mCount = 0;
 
 	@Override
@@ -83,9 +82,8 @@ public class CounterActivity
 	private void incrementCount()
 	{
 		mCount++;
-		if (mCount > 20 && mExceededTwenty == false)
+		if (mCount == 21)
 		{
-			mExceededTwenty = true;
 			Toast.makeText(
 					CounterActivity.this,
 					R.string.exceeded_twenty_toast,

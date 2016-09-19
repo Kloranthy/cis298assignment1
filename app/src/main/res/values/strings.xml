@@ -4,7 +4,7 @@
     <string name="plus_button_label">+</string>
     <string name="minus_button_label">-</string>
     <!-- toast -->
-    <string name="exceeded_twenty_toast">the counter has passed 20 for the first time</string>
+    <string name="exceeded_twenty_toast">the counter has just passed 20</string>
     <!-- settings -->
     <string name="action_settings">Settings</string>
 </resources>
