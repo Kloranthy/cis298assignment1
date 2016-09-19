@@ -6,7 +6,7 @@ Josh Weigel
 
 ## Description
 A counter app with a textview displaying the current count and buttons for incrementing and decrementing it.
-When incrementing past 20 for the first time a toast is displayed.
+When incrementing to 21 a toast is displayed.
 
 ### Notes
 The counter will not go negative.
